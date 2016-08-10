@@ -25,7 +25,7 @@ section {
         @include grid-column(12);
         text-align: center;
         height: $cell-height;
-        border: solid 2px black;
+        border: solid 1px black;
     }
 }
 
@@ -65,14 +65,8 @@ div {
     height: $cell-height;
     }
     .shrink {
-        @include breakpoint(large) {
-            @include grid-column(4)
-        }
         @include breakpoint(medium) {
             @include grid-column(3)
-        }
-        @include breakpoint(small) {
-            @include grid-column(2)
         }
     }
 }
