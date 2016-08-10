@@ -9,6 +9,7 @@
 $cell-height: 100px;
 
 header {
+    background-color: lightgoldenrodyellow;
     @include grid-row();
 
     h1 {
@@ -46,6 +47,7 @@ div {
     }
 }
 #county-fair {
+    background-color: lightgreen;
     .big-shrink {
         @include breakpoint(medium) {
             @include grid-column(4);
@@ -59,14 +61,15 @@ div {
     }
 }
 #merch {
+    background-color: lightblue;
     div {
-    @include grid-column(3);
+    @include grid-column(12);
     text-align: center;
     height: $cell-height;
     }
     .shrink {
         @include breakpoint(medium) {
-            @include grid-column(3)
+            @include grid-column(4)
         }
     }
 }

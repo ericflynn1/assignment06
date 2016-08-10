@@ -1271,6 +1271,7 @@ button {
     margin-right: 0;
     float: left; } }
 header {
+  background-color: lightgoldenrodyellow;
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto; }
@@ -1346,58 +1347,62 @@ footer {
     .big-appear {
       display: block; } }
 
-@media screen and (min-width: 40em) {
-  #county-fair .big-shrink {
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem; } }
+#county-fair {
+  background-color: lightgreen; }
+  @media screen and (min-width: 40em) {
+    #county-fair .big-shrink {
+      width: 33.33333%;
+      float: left;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #county-fair .big-shrink {
       padding-left: 0.9375rem;
       padding-right: 0.9375rem; } }
-@media screen and (min-width: 40em) {
-    #county-fair .big-shrink:last-child:not(:first-child) {
-      float: right; } }
-@media screen and (min-width: 40em) {
-  #county-fair .big-appear {
-    width: 66.66667%;
-    float: left;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem; } }
+  @media screen and (min-width: 40em) {
+      #county-fair .big-shrink:last-child:not(:first-child) {
+        float: right; } }
+  @media screen and (min-width: 40em) {
+    #county-fair .big-appear {
+      width: 66.66667%;
+      float: left;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #county-fair .big-appear {
       padding-left: 0.9375rem;
       padding-right: 0.9375rem; } }
-@media screen and (min-width: 40em) {
-    #county-fair .big-appear:last-child:not(:first-child) {
-      float: right; } }
-
-#merch div {
-  width: 25%;
-  float: left;
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-  text-align: center;
-  height: 100px; }
   @media screen and (min-width: 40em) {
-    #merch div {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
-  #merch div:last-child:not(:first-child) {
-    float: right; }
-@media screen and (min-width: 40em) {
-  #merch .shrink {
-    width: 25%;
+      #county-fair .big-appear:last-child:not(:first-child) {
+        float: right; } }
+
+#merch {
+  background-color: lightblue; }
+  #merch div {
+    width: 100%;
     float: left;
     padding-left: 0.625rem;
-    padding-right: 0.625rem; } }
+    padding-right: 0.625rem;
+    text-align: center;
+    height: 100px; }
+    @media screen and (min-width: 40em) {
+      #merch div {
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem; } }
+    #merch div:last-child:not(:first-child) {
+      float: right; }
+  @media screen and (min-width: 40em) {
+    #merch .shrink {
+      width: 33.33333%;
+      float: left;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #merch .shrink {
       padding-left: 0.9375rem;
       padding-right: 0.9375rem; } }
-@media screen and (min-width: 40em) {
-    #merch .shrink:last-child:not(:first-child) {
-      float: right; } }
+  @media screen and (min-width: 40em) {
+      #merch .shrink:last-child:not(:first-child) {
+        float: right; } }
 
 /*# sourceMappingURL=main.css.map */
